@@ -1,0 +1,9 @@
+{
+    "name": "seboettg/bib-data",
+    "description": "Data models for different bibliographic reference systems like CSL, BibTeX, and RIS.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {"Seboettg\\BibData\\": "src/Seboettg/BibData"}
+    }
+}
