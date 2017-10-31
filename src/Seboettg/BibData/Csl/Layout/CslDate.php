@@ -25,12 +25,12 @@ interface CslDate
     public function getLiteral();
 
     /**
-     * @return string
+     * @return bool|int|string
      */
     public function getCirca();
 
     /**
-     * @return string
+     * @return int|string
      */
     public function getSeason();
 
