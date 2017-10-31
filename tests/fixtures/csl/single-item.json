@@ -1,0 +1,28 @@
+{
+  "author": [
+    {
+      "family": "Oblinger",
+      "given": "Dan Gerry",
+      "isInstitution": ""
+    },
+    {
+      "family": "Oblinger",
+      "given": "Susan Mary",
+      "isInstitution": ""
+    }
+  ],
+  "id": 3,
+  "issued": {
+    "date-parts": [
+      [
+        2009
+      ]
+    ]
+  },
+  "multi": {
+    "_keys": {}
+  },
+  "original-publisher-place": "Boston",
+  "title": "Bookie",
+  "type": "book"
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "DOI": "",
+    "ISBN": "",
+    "ISSN": "",
+    "URL": "http://ilk.uvt.nl/~toine/phd-thesis/",
+    "abstract": "Recommender systems belong to a class of personalized information filtering technologies that aim to identify which items in a collection might be of interest to a particular user. Recommendations can be made using a variety of information sources related to both the user and the items: past user preferences, demographic information, item popularity, the metadata characteristics of the products, etc. Social bookmarking websites, with their emphasis on open collaborative information access, offer an ideal scenario for the application of recommender systems technology. They allow users to manage their favorite bookmarks online through a web interface and, in many cases, allow their users to tag the content they have added to the system with keywords. The underlying application then makes all information sharable among users. Examples of social bookmarking services include Delicious, Diigo, Furl, CiteULike, and BibSonomy.\r\nIn my Ph.D. thesis I describe the work I have done on item recommendation for social bookmarking, i.e., recommending interesting bookmarks to users based on the content they bookmarked in the past. In my experiments I distinguish between two types of information sources. The first one is usage data contained in the folksonomy, which represents the past selections and transactions of all users, i.e., who added which items, and with what tags. The second information source is the metadata describing the bookmarks or articles on a social bookmarking website, such as title, description, authorship, tags, and temporal and publication-related metadata. I compare and combine the content-based aspect with the more common usage-based approaches. I evaluate my approaches on four data sets constructed from three different social bookmarking websites: BibSonomy, CiteULike, and Delicious. In addition, I investigate different combination methods for combining different algorithms and show which of those methods can successfully improve recommendation performance.\r\nFinally, I consider two growing pains that accompany the maturation of social bookmarking websites: spam and duplicate content. I examine how widespread each of these problems are for social bookmarking and how to develop effective automatic methods for detecting such unwanted content. Finally, I investigate the influence spam and duplicate content can have on item recommendation.",
+    "annote": "",
+    "author": [
+      {
+        "family": "Bogers",
+        "given": "Toine"
+      }
+    ],
+    "citation-label": "bogers2009recommender",
+    "collection-editor": [
+
+    ],
+    "collection-title": "",
+    "container-author": [
+
+    ],
+    "container-title": "",
+    "documents": [
+
+    ],
+    "edition": "",
+    "editor": [
+
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "2009",
+          "dec"
+        ]
+      ],
+      "literal": "2009"
+    },
+    "event-place": "Tilburg, The Netherlands",
+    "genre": "PhD dissertation",
+    "id": "b02daac1201473600b7c8d2553865b4anosebrain",
+    "interhash": "65b74dcabaa583a48469f3dec2ec1f62",
+    "intrahash": "b02daac1201473600b7c8d2553865b4a",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          "2009",
+          "dec"
+        ]
+      ],
+      "literal": "2009"
+    },
+    "keyword": "bookmarking item recommender social tagging thesis",
+    "misc": {
+    },
+    "note": "",
+    "number": "",
+    "page": "",
+    "page-first": "",
+    "publisher": "Tilburg University",
+    "publisher-place": "Tilburg, The Netherlands",
+    "status": "",
+    "title": "Recommender Systems for Social Bookmarking",
+    "type": "thesis",
+    "username": "nosebrain",
+    "version": "",
+    "volume": ""
+  },
+  {
+    "DOI": "10.1007/978-3-642-41629-3_7",
+    "ISBN": "978-3-642-41628-6",
+    "ISSN": "",
+    "URL": "http://dx.doi.org/10.1007/978-3-642-41629-3_7",
+    "abstract": "In the era of web2.0, more and more web sites, such as Lastfm, Delicious and Movielens, provide social tagging service to help users annotate their music, urls and movies etc. With the help of tags, users can organize and share their online resources more efficiently. In this paper, we propose a new tag recommendation algorithm TagRank which is based on random walk model. We also explore three data fusion techniques to make more powerful hybrid tag recommenders using TagRank, two collaborative filtering based algorithms and three tag popularity based algorithms. In order to find appropriate individual recommenders to make hybrid, we propose a greedy selection algorithm. We test and verify our proposed TagRank and greedy selection algorithm on three real-world datasets and experimental results show that our methods are efficient in terms of precision, recall and F1.",
+    "annote": "",
+    "author": [
+      {
+        "family": "Ma",
+        "given": "Feichao"
+      },
+      {
+        "family": "Wang",
+        "given": "Wenqing"
+      },
+      {
+        "family": "Deng",
+        "given": "Zhihong"
+      }
+    ],
+    "citation-label": "ma2013tagrank",
+    "collection-editor": [
+      {
+        "family": "Zhou",
+        "given": "Shuigeng"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhiang"
+      }
+    ],
+    "collection-title": "Communications in Computer and Information Science",
+    "container-author": [
+      {
+        "family": "Zhou",
+        "given": "Shuigeng"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhiang"
+      }
+    ],
+    "container-title": "Social Media Retrieval and Mining",
+    "documents": [
+
+    ],
+    "edition": "",
+    "editor": [
+      {
+        "family": "Zhou",
+        "given": "Shuigeng"
+      },
+      {
+        "family": "Wu",
+        "given": "Zhiang"
+      }
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ],
+      "literal": "2013"
+    },
+    "event-place": "Berlin/Heidelberg",
+    "id": "ba7d071a30dddb474e81d112f2b28b65nosebrain",
+    "interhash": "c2dba3863f3f993d1ae777058d0af9b6",
+    "intrahash": "ba7d071a30dddb474e81d112f2b28b65",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          "2013"
+        ]
+      ],
+      "literal": "2013"
+    },
+    "keyword": "bookmarking collaborative core folksonomy recommender social tagging tagrank",
+    "misc": {
+      "isbn": "978-3-642-41628-6",
+      "language": "English",
+      "doi": "10.1007/978-3-642-41629-3_7"
+    },
+    "note": "",
+    "number": "",
+    "number-of-pages": "11",
+    "page": "80--91",
+    "page-first": "80",
+    "publisher": "Springer",
+    "publisher-place": "Berlin/Heidelberg",
+    "status": "",
+    "title": "TagRank: A New Tag Recommendation Algorithm and Recommender Enhancement with Data Fusion Techniques",
+    "type": "chapter",
+    "username": "nosebrain",
+    "version": "",
+    "volume": "387"
+  },
+  {
+    "DOI": "10.1561/106.00000004",
+    "ISBN": "",
+    "ISSN": "",
+    "URL": "http://dx.doi.org/10.1561/106.00000004",
+    "abstract": "In recent years, several successful tag recommendation mechanisms have been developed that, among others, built upon Collaborative Filtering, Tensor Factorization, graph-based algorithms and simple “most popular tags” approaches. From an economic perspective, the latter approach has been convincing as calculating frequencies is computationally efficient and has shown to be effective with respect to different recommender evaluation metrics. In order to extend these conventional “most popular tags” approaches we introduce a tag recommendation algorithm that mimics the way humans draw on items in their long-term memory. Based on a theory of human memory, the approach estimates a tag’s reuse probability as a function of usage frequency and recency in the user’s past (base-level activation) as well as of the current semantic context (associative component). Using four real-world folksonomies gathered from bookmarks in BibSonomy, CiteULike, Delicious and Flickr, we show how refining frequency-based estimates, by considering recency and semantic context, outperforms conventional “most popular tags” approaches and another existing and very effective but less theory-driven, time-dependent recommendation mechanism. By combining our approach with a resource-specific frequency analysis, our algorithm outperforms other well-established algorithms, such as Collaborative Filtering, FolkRank and Pairwise Interaction Tensor Factorization with respect to recommender accuracy and runtime. We conclude that our approach provides an accurate and computationally efficient model of a user’s temporal tagging behavior. Moreover, we demonstrate how effective principles of recommender systems can be designed and implemented if human memory processes are taken into account.",
+    "annote": "",
+    "author": [
+      {
+        "family": "Trattner",
+        "given": "Christoph"
+      },
+      {
+        "family": "Kowald",
+        "given": "Dominik"
+      },
+      {
+        "family": "Seitlinger",
+        "given": "Paul"
+      },
+      {
+        "family": "Ley",
+        "given": "Tobias"
+      },
+      {
+        "family": "Kopeinik",
+        "given": "Simone"
+      }
+    ],
+    "citation-label": "trattner2016modeling",
+    "collection-editor": [
+
+    ],
+    "collection-title": "",
+    "container-author": [
+
+    ],
+    "container-title": "The Journal of Web Science",
+    "documents": [
+
+    ],
+    "edition": "",
+    "editor": [
+
+    ],
+    "event-date": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ],
+      "literal": "2016"
+    },
+    "event-place": "",
+    "id": "ef7f8df8391d78a40736fd58e8110716jaeschke",
+    "interhash": "2e2ddd9b8ac8ed750e21b881f7d28638",
+    "intrahash": "ef7f8df8391d78a40736fd58e8110716",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2016"
+        ]
+      ],
+      "literal": "2016"
+    },
+    "keyword": "bookmarking collaborative folksonomy recommender tag tagging",
+    "misc": {
+      "doi": "10.1561/106.00000004"
+    },
+    "note": "",
+    "number": "1",
+    "number-of-pages": "15",
+    "page": "1--16",
+    "page-first": "1",
+    "publisher": "",
+    "publisher-place": "",
+    "status": "",
+    "title": "Modeling Activation Processes in Human Memory to Predict the Use of Tags in Social Bookmarking Systems",
+    "type": "article-journal",
+    "username": "jaeschke",
+    "version": "",
+    "volume": "2"
+  }
+]

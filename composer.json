@@ -5,5 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {"Seboettg\\BibData\\": "src/Seboettg/BibData"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
     }
 }
