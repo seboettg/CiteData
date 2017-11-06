@@ -62,7 +62,6 @@ class Factory
      */
     private static function createByObject($jsonObj)
     {
-
         if (is_array($jsonObj)) {
             $ret = [];
             foreach ($jsonObj as $jsonObject) {
@@ -104,24 +103,6 @@ class Factory
         }
         $methodToSearch = "set" . ucfirst($property);
         return $methodToSearch;
-    }
-
-    private static function createDateObject($dateObject)
-    {
-        $name = new Date();
-        $reflClass = new ReflectionClass(get_class($name));
-        foreach ($dateObject as $property => $value) {
-            $methods = $reflClass->getMethods(ReflectionMethod::IS_PUBLIC);
-            $methodToSearch = static::getMethodName($property);
-            $relevantMethods = array_filter($methods, function ($method) use ($methodToSearch) {
-                /** @var ReflectionMethod $method */
-                return $method->getName() === $methodToSearch;
-            });
-            if (!empty($relevantMethods)) {
-                $method = array_shift($relevantMethods);
-                $method->invoke($name, $value);
-            }
-        }
     }
 
     private static function createNameObject(array $nameObjectArray)
