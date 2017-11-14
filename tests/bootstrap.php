@@ -1,6 +1,6 @@
 <?php
 /*
- * BibData
+ * CiteData
  *
  * @link        http://github.com/seboettg/BibData for the source repository
  * @copyright   Copyright (c) 2017 Sebastian Böttger.

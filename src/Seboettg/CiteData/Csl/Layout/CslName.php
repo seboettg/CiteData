@@ -1,13 +1,13 @@
 <?php
 /*
- * BibData
+ * CiteData
  *
  * @link        http://github.com/seboettg/BibData for the source repository
  * @copyright   Copyright (c) 2017 Sebastian Böttger.
  * @license     https://opensource.org/licenses/MIT
  */
 
-namespace Seboettg\BibData\Csl\Layout;
+namespace Seboettg\CiteData\Csl\Layout;
 
 /**
  * Interface CslName

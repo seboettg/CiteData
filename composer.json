@@ -1,10 +1,10 @@
 {
-    "name": "seboettg/bib-data",
+    "name": "seboettg/citedata",
     "description": "Data models for different bibliographic reference systems like CSL, BibTeX, and RIS.",
     "type": "library",
     "license": "MIT",
     "autoload": {
-        "psr-4": {"Seboettg\\BibData\\": "src/Seboettg/BibData"}
+        "psr-4": {"Seboettg\\CiteData\\": "src/Seboettg/CiteData"}
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8"

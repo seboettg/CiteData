@@ -1,20 +1,20 @@
 <?php
 /*
- * BibData
+ * CiteData
  *
  * @link        http://github.com/seboettg/BibData for the source repository
  * @copyright   Copyright (c) 2017 Sebastian Böttger.
  * @license     https://opensource.org/licenses/MIT
  */
 
-namespace Seboettg\BibData\Csl;
+namespace Seboettg\CiteData\Csl;
 
 use JsonSerializable;
-use Seboettg\BibData\Csl\Layout\CslDate;
+use Seboettg\CiteData\Csl\Layout\CslDate;
 
 /**
  * Class Date
- * @package Seboettg\BibData\Csl
+ * @package Seboettg\CiteData\Csl
  * @author Sebastian Böttger <seboettg@gmail.com>
  */
 class Date implements CslDate, JsonSerializable

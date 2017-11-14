@@ -1,6 +1,6 @@
 <?php
 /*
- * BibData
+ * CiteData
  *
  * @link        http://github.com/seboettg/BibData for the source repository
  * @copyright   Copyright (c) 2017 Sebastian Böttger.
@@ -8,7 +8,7 @@
  */
 
 
-namespace Seboettg\BibData\Csl;
+namespace Seboettg\CiteData\Csl;
 
 use ReflectionClass;
 use ReflectionMethod;
@@ -65,11 +65,11 @@ class Factory
         if (is_array($jsonObj)) {
             $ret = [];
             foreach ($jsonObj as $jsonObject) {
-                $ret[] = static::createObject("Seboettg\\BibData\\Csl\\Record", $jsonObject);
+                $ret[] = static::createObject("Seboettg\\CiteData\\Csl\\Record", $jsonObject);
             }
             return $ret;
         } elseif (is_object($jsonObj)) {
-            return static::createObject("Seboettg\\BibData\\Csl\\Record", $jsonObj);
+            return static::createObject("Seboettg\\CiteData\\Csl\\Record", $jsonObj);
         } else {
             throw new \InvalidArgumentException("Invalid argument. Cannot handle format of the argument.");
         }
@@ -109,7 +109,7 @@ class Factory
     {
         $ret = [];
         foreach ($nameObjectArray as $nameObject) {
-            $ret[] = static::createObject("Seboettg\\BibData\\Csl\\Name", $nameObject);
+            $ret[] = static::createObject("Seboettg\\CiteData\\Csl\\Name", $nameObject);
         }
         return $ret;
     }
@@ -131,7 +131,7 @@ class Factory
                     if (static::isNameVariable($property)) {
                         $method->invoke($obj, static::createNameObject($value));
                     } elseif (static::isDateVariable($property)) {
-                        $method->invoke($obj, static::createObject("Seboettg\\BibData\\Csl\\Date", $value));
+                        $method->invoke($obj, static::createObject("Seboettg\\CiteData\\Csl\\Date", $value));
                     } else {
                         $method->invoke($obj, $value);
                     }
