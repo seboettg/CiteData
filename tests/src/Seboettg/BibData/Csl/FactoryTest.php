@@ -19,7 +19,7 @@ class FactoryTest extends TestCase
         $records = Factory::createRecord(json_decode(loadFixtures("bibsonomy-items.json", "csl")));
 
         $jsonString = json_encode($records);
-        $noop = false;
+        echo $jsonString;
 
     }
 }
